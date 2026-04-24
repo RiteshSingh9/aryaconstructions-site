@@ -16,15 +16,14 @@
 
 <body class="bg-[#050608] text-neutral-100 antialiased">
 
-  <div class="hidden md:flex items-center justify-between px-10 py-2.5 bg-amber-500/10 border-b border-amber-500/20">
-    <div class="flex gap-6 text-[10px] font-bold uppercase tracking-[0.2em] text-amber-400">
-      <span>GSTIN: 09BVWPS9044N1ZB</span>
-      <span>PAN: BVWPS9044N</span>
-      <span>Proprietorship</span>
+  <div class="hidden md:flex items-center justify-between px-10 py-3 glass-panel rounded-full shadow-sm">
+    <div class="flex flex-wrap items-center gap-4">
+      <span class="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.35em] text-amber-300">Class-A Contractor</span>
+      <span class="text-[10px] uppercase tracking-[0.2em] text-neutral-400">GSTIN: <span class="text-white">09BVWPS9044N1ZB</span></span>
+      <span class="text-[10px] uppercase tracking-[0.2em] text-neutral-400">PAN: <span class="text-white">BVWPS9044N</span></span>
+      <span class="text-[10px] uppercase tracking-[0.2em] text-amber-300">ESIC: <span class="text-white">30000674680001099</span></span>
     </div>
-    <div class="text-[10px] text-neutral-500 uppercase tracking-widest">
-      Lucknow Division • Uttar Pradesh
-    </div>
+    <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500">Lucknow Division • Uttar Pradesh</div>
   </div>
 
   <header class="sticky top-0 z-50 px-4 md:px-10 py-4">
@@ -73,32 +72,33 @@
     </nav>
   </header>
 
-  <section id="about" class="relative pt-20 pb-32 px-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-    <div data-aos="fade-right">
+  <section id="about" class="relative pt-20 pb-32 px-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center overflow-hidden">
+    <div class="absolute inset-0 opacity-20 pointer-events-none">
+      <img src="./assets/images/image2.jpeg" alt="Construction site background" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-[#050608]/85"></div>
+    </div>
+
+    <div class="relative z-10" data-aos="fade-right">
       <div
         class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400/10 border border-amber-400/20 mb-8">
         <span class="text-[10px] font-bold text-amber-400 uppercase tracking-widest">Verified Industrial
           Contractor</span>
       </div>
       <h1 class="text-6xl lg:text-8xl font-black leading-[0.85] mb-8 uppercase tracking-tighter">
-        Building <br /> <span class="text-amber-500">Infrastructure.</span>
+        Powering <br /> <span class="text-amber-500">Transmission & Civil Works.</span>
       </h1>
       <p class="text-neutral-400 text-lg max-w-md mb-10 leading-relaxed font-medium">
-        Specializing in HDPE/DI & MS Distribution Pipelines, Civil Works, and Industrial Commissioning.
+        Trusted for transmission line systems, HDPE/DI & MS distribution pipelines, civil infrastructure, and industrial commissioning.
       </p>
-      <div class="flex gap-4">
-        <!-- <div class="p-6 glass-panel rounded-2xl">
-          <p class="text-3xl font-bold text-amber-500 tracking-tighter">45.6 Lakh</p>
-          <p class="text-[10px] text-neutral-500 uppercase font-bold tracking-widest">Solvency Value</p>
-        </div> -->
+      <div class="flex flex-col sm:flex-row gap-4">
         <div class="p-6 glass-panel rounded-2xl">
-          <p class="text-xl font-bold tracking-tighter">ESIC Registered</p>
-          <p class="text-[10px] text-neutral-500 uppercase font-bold tracking-widest"> 30000674680001099</p>
+          <p class="text-xl font-bold tracking-tighter">Class-A Verified</p>
+          <p class="text-[10px] text-neutral-500 uppercase font-bold tracking-widest">Heavy Civil & Transmission Works</p>
         </div>
       </div>
     </div>
 
-    <div class="glass-panel p-10 rounded-[2.5rem] gold-glow relative" data-aos="zoom-in">
+    <div class="glass-panel p-10 rounded-[2.5rem] gold-glow relative z-10" data-aos="zoom-in">
       <h3 class="text-amber-500 font-bold uppercase text-xs tracking-widest mb-6">Corporate Registry</h3>
       <div class="space-y-4">
         <div class="flex justify-between border-b border-white/5 pb-3">
